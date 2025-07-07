@@ -15,3 +15,5 @@ There are some things I wanted to point out, but which I didn't want to adress, 
 # Some blue-sky nice to haves:
 * Include "autocomplete" in search input for available specialties, cities, and degrees. There is a much smaller size of data, so this data could be client-side to power this, so autocomplete can function without API requests. The API request would happen when the item is selected / submitted.This would likely require moving to a component library such as [Zag's combobox](https://zagjs.com/components/react/combobox)
 * Search should be scoped to the DB based on the type of data in the input. i.e. If it's one of the valid auto-complete values, a string, or a number. This would speed up API requests.
+
+**Note:** Normally I would not like to put PRs on top of each other, but this PR is on top of the dependency update PR just to ensure I have up to date dependencies and I'm not running into any weird bugs as I work.
